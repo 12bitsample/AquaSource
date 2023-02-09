@@ -1,0 +1,46 @@
+* {
+    margin: 0;  
+    padding: 0;
+    /* background-color: gray; */
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: gray;
+}
+
+.navbar-brand {
+    color:rgb(82, 161, 213) !important;
+    font-size: 1.5rem !important;
+    text-shadow: 0 2 2px black;
+    background-color: white;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#div1 {
+    background-color:lightblue;
+    height:85vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+div > h2 {
+    background-color:rgb(0,0,0,0);
+}
+
+p {
+    color:black;
+    background-color: white;
+}
+
+#index-primary-img {
+    /* height:auto !important;
+    width:70rem !important; */
+    overflow: hidden !important;
+    /* max-width: 100%;
+    max-height: 100%;
+    object-fit:inherit; */
+}
