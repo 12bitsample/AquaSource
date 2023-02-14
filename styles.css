@@ -39,7 +39,8 @@ p {
 #index-primary-img {
     /* height:auto !important;
     width:70rem !important; */
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
+    border: red 5px;
     /* max-width: 100%;
     max-height: 100%;
     object-fit:inherit; */
