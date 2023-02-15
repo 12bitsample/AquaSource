@@ -22,13 +22,19 @@ body {
 
 #div1 {
     background-color:lightblue;
-    height:85vh;
-    justify-content: center;
-    overflow: hidden;
+    height:88vh;
+    /* justify-content: center; */
+    /* overflow: hidden; */
 }
 
 div > h2 {
     background-color:rgb(0,0,0,0);
+    
+}
+
+#div-row {
+    max-height: 75% !important;
+    overflow: hidden;
 }
 
 p {
@@ -36,12 +42,14 @@ p {
     background-color: white;
 }
 
-#index-primary-img {
-    /* height:auto !important;
-    width:70rem !important; */
-    /* overflow: hidden !important; */
-    border: red 5px;
-    /* max-width: 100%;
-    max-height: 100%;
-    object-fit:inherit; */
+@media only screen and (max-width: 600px) {
+    #div-row {
+        display:inline-block;
+        text-align: center;
+    
+    }
+
+    p {
+        display: inline-block;
+    }
 }
