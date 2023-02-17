@@ -50,6 +50,13 @@ p {
     background-color: white;
 }
 
+/* estimate */
+
+#form-container {
+    height:75%;
+    overflow: hidden;
+}
+
 @media only screen and (max-width: 600px) {
     
     h2 {
