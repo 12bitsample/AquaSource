@@ -20,6 +20,10 @@ a.navbar-brand {
     background-color: white;
 }
 
+#navbarSupportedContent {
+    font-size: 3vh;
+}
+
 body {
     min-height: 100vh;
 
@@ -43,6 +47,7 @@ div > h2 {
 #div-row {
     max-height: 75% !important;
     overflow: hidden;
+    font-size: 2.3vh;
 }
 
 p {
@@ -55,6 +60,7 @@ p {
 #rate-container {
     height:50vh;
     align-items: center;
+    font-size: 2.3vh;
 }
 
 table {
@@ -101,5 +107,11 @@ table, th, td {
 
     img {
         display:none;
+    }
+
+    /* rates */
+
+    #rate-container {
+        font-size: 3vw;
     }
 }
