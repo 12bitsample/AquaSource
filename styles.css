@@ -15,9 +15,13 @@ a.navbar-brand {
 
 .navbar-brand {
     color:rgb(92, 160, 233) !important;
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     text-shadow: 0 2 2px black;
     background-color: white;
+}
+
+#text {
+    color:white;
 }
 
 #navbarSupportedContent {
@@ -30,11 +34,13 @@ body {
     background-color: white;
     background-image: radial-gradient(#444cf7 0.5px, white 0.5px);
     background-size: 10px 10px;
+    overflow: hidden;
 }
 
 #div1 {
     background-color:rgb(129, 180, 235);
-    height:88vh;
+    height:86vh;
+
     
     
 }
