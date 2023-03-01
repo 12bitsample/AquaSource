@@ -54,12 +54,13 @@ div > h2 {
 #div-row {
     max-height: 75% !important;
     overflow: hidden;
-    font-size: 2.3vh;
+    font-size: 1.2rem !important;
 }
 
 p {
     color:black;
     background-color: white;
+    word-break: keep-all;
 }
 
 /* rates */
@@ -67,7 +68,7 @@ p {
 #rate-container {
     height:50vh;
     align-items: center;
-    font-size: 2.3vh;
+    font-size: 1.2rem !important;
 }
 
 #rate-text {
@@ -84,6 +85,10 @@ table {
 
 table, th, td {
     border: 1px solid !important;
+}
+
+#rate-container {
+    font-size: 3vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,11 +125,5 @@ table, th, td {
 
     img {
         display:none;
-    }
-
-    /* rates */
-
-    #rate-container {
-        font-size: 3vw;
     }
 }
