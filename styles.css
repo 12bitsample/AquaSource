@@ -60,38 +60,10 @@ div > h2 {
 p {
     color:black;
     background-color: white;
-    word-break: keep-all;
+
 }
 
-/* rates */
-
-#rate-container {
-    height:50vh;
-    align-items: center;
-    font-size: 1.2rem !important;
-}
-
-#rate-text {
-    width: 85%;
-    margin:0 auto;
-    padding: 1vw;
-}
-
-table {
-    background-color: white;
-    width:85%;     
-    margin: 0 auto;
-}
-
-table, th, td {
-    border: 1px solid !important;
-}
-
-#rate-container {
-    font-size: 3vw;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     
     h2 {
         display: none;
@@ -126,4 +98,32 @@ table, th, td {
     img {
         display:none;
     }
+}
+
+/* rates */
+
+#rate-container {
+    height:50vh;
+    align-items: center;
+    font-size: 1.2rem !important;
+}
+
+#rate-text {
+    width: 85%;
+    margin:0 auto;
+    padding: 1vw;
+}
+
+table {
+    background-color: white;
+    width:85%;     
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid !important;
+}
+
+#rate-container {
+    font-size: 3vw;
 }
