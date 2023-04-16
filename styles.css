@@ -33,7 +33,7 @@ body {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.drop{
+.drop {
 
 	position:fixed;
     background-attachment: fixed;
@@ -52,8 +52,51 @@ body {
 	border-radius:0% 100% 100% 100%;
 	transform: rotate(45deg);
 	clear: left;
-	
 }
+
+.drop2 {
+
+	position:fixed;
+    background-attachment: fixed;
+    z-index: -1;
+	padding: 0;
+	background: rgb(63,55,201);
+    background: linear-gradient(175deg, rgba(63,55,201,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.44);
+	right: 0;
+	left:80%;
+	top: 40%;
+	bottom: 20%;
+	margin: 0 auto;
+	width: 15vh;
+	height: 15vh;		
+	border-radius:0% 100% 100% 100%;
+	transform: rotate(45deg);
+	clear: left;
+}
+
+.drop3 {
+
+	position:fixed;
+    background-attachment: fixed;
+    z-index: -1;
+	padding: 0;
+	background: rgb(63,55,201);
+    background: linear-gradient(175deg, rgba(63,55,201,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.44);
+	right: 80%;
+	left: 0;
+	top: 70%;
+	bottom: 20%;
+	margin: 0 auto;
+	width: 15vh;
+	height: 15vh;		
+	border-radius:0% 100% 100% 100%;
+	transform: rotate(45deg);
+	clear: left;
+}
+
+/* index body */
 
 #div1 {
     background-color:rgb(129, 180, 235);
@@ -79,6 +122,10 @@ p {
     color:black;
     background-color: white;
 
+}
+
+#index-div {
+    background-color: white;
 }
 
 @media only screen and (max-width: 925px) {
