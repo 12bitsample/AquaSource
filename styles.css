@@ -99,12 +99,10 @@ body {
 /* index body */
 
 #div1 {
+
     background-color:rgb(129, 180, 235);
     height:86vh;
     width: 75%;
-
-    
-    
 }
 
 div > h2 {
@@ -126,6 +124,13 @@ p {
 
 #index-div {
     background-color: white;
+    height:100vh;
+
+}
+
+.col{
+    border: 1px solid black;  
+
 }
 
 @media only screen and (max-width: 925px) {
