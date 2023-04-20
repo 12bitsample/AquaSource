@@ -12,7 +12,6 @@
 				
 }
 
-
 #text {
     color:white;
 }
@@ -22,7 +21,10 @@
 }
 
 body {
-    min-height: 100vh;
+    /* height: 100vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 
     /* background-color: white;
     background-image: radial-gradient(#444cf7 0.5px, white 0.5px);
@@ -32,6 +34,7 @@ body {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
+
 
 .drop {
 
@@ -124,7 +127,8 @@ p {
 
 #index-div {
     background-color: transparent;
-    height:100vh;
+    
+    
 
 }
 
