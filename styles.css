@@ -21,10 +21,10 @@
 }
 
 body {
-    /* height: 100vh; */
-    display:flex;
+    height: 100vh;
+    /* display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 
     /* background-color: white;
     background-image: radial-gradient(#444cf7 0.5px, white 0.5px);
@@ -127,7 +127,6 @@ p {
 
 #index-div {
     background-color: transparent;
-    
     
 
 }
