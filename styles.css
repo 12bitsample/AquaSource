@@ -22,15 +22,6 @@
 
 body {
     height: 100vh;
-    /* display:flex;
-    flex-direction: column;
-    justify-content: center; */
-
-    /* background-color: white;
-    background-image: radial-gradient(#444cf7 0.5px, white 0.5px);
-    background-size: 10px 10px;
-    overflow: hidden; */
-
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
@@ -136,7 +127,7 @@ p {
 
 }
 
-@media only screen and (max-width: 925px) {
+/* @media only screen and (max-width: 925px) {
     
     h2 {
         display: none;
@@ -154,7 +145,6 @@ p {
     }
 
     #div-row {
-        /* position: relative; */
         text-align: center;
         width: 80%;
 
@@ -171,7 +161,7 @@ p {
     img {
         display:none;
     }
-}
+} */
 
 /* rates */
 
