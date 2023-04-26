@@ -3,6 +3,8 @@
     padding: 0;
     /* background-color: gray; */
     font-family:'Times New Roman', Times, serif;
+
+    border: red 2px !important;
 }
 
 .navbar-brand {
