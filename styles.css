@@ -3,8 +3,6 @@
     padding: 0;
     /* background-color: gray; */
     font-family:'Times New Roman', Times, serif;
-
-    border: red 2px !important;
 }
 
 .navbar-brand {
@@ -121,6 +119,11 @@ p {
 #index-div {
     background-color: transparent;
     
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%); */
 
 }
 
