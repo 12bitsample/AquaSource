@@ -20,24 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-2 mb-lg-0">
               <li class="nav-item me-2">
-                <a class="nav-link active" id="text" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" id="text" aria-current="page" href="index.html" onmouseover="changeColor(this)" >Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="text" href="about.html">About</a>
+                <a class="nav-link" id="text" href="about.html" onmouseover="changeColor(this)" >About</a>
               </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
               <li class="nav-item">
-                <a class="nav-link" id="text" href="rates.html">Rates</a>
+                <a class="nav-link" id="text" href="rates.html" onmouseover="changeColor(this)" >Rates</a>
               </li>
             </ul>
           </div>
@@ -51,4 +40,16 @@
     </div>
     
 </body>
+<script>
+  function changeColor(element) {
+
+    element.style.textShadow = '2px 1px black';
+
+    element.addEventListener('mouseout', function() {
+      element.style.textShadow = 'none';
+    })
+
+  }
+
+</script>
 </html>
