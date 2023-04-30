@@ -24,6 +24,7 @@ body {
     height: 100vh;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    overflow: hidden !important;
 }
 
 
@@ -105,9 +106,9 @@ div > h2 {
 }
 
 #div-row {
-    max-height: 75% !important;
+    /* max-height: 25% !important;
     overflow: hidden;
-    font-size: 1.2rem !important;
+    font-size: 1.2rem !important; */
 }
 
 p {
@@ -119,11 +120,7 @@ p {
 #index-div {
     background-color: transparent;
     
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%, -50%);
-    transform: translateY(-50%, -50%); */
+    max-width: 50% !important;
 
 }
 
