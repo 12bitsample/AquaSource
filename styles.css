@@ -120,7 +120,8 @@ p {
 #index-div {
     background-color: transparent;
     
-    max-width: 50% !important;
+    /* max-width: 50% !important; */
+
 
 }
 
