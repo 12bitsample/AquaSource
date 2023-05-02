@@ -3,6 +3,7 @@
     padding: 0;
     /* background-color: gray; */
     font-family:'Times New Roman', Times, serif;
+    overflow: hidden;
 }
 
 .navbar-brand {
@@ -21,10 +22,10 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 50vh; */
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
 }
 
 
@@ -120,8 +121,12 @@ p {
 #index-div {
     background-color: transparent;
     
-    /* max-width: 50% !important; */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+   
 
 }
 
