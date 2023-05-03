@@ -3,7 +3,6 @@
     padding: 0;
     /* background-color: gray; */
     font-family:'Times New Roman', Times, serif;
-    overflow: hidden;
 }
 
 .navbar-brand {
@@ -110,6 +109,7 @@ div > h2 {
     /* max-height: 25% !important;
     overflow: hidden;
     font-size: 1.2rem !important; */
+    
 }
 
 p {
@@ -121,13 +121,19 @@ p {
 #index-div {
     background-color: transparent;
     
+    max-width: 30vw;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
    
 
+}
+
+#img1 {
+    background-image: url('images/truck.jpg');
+    background-size: cover;
 }
 
 .col{
