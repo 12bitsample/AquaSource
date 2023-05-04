@@ -121,9 +121,10 @@ p {
 #index-div {
     background-color: transparent;
     
-    max-width: 30vw;
+    max-height: 25vh;
+    max-width: 33em;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -133,7 +134,9 @@ p {
 
 #img1 {
     background-image: url('images/truck.jpg');
-    background-size: cover;
+    background-size: cover !important;
+    
+
 }
 
 .col{
