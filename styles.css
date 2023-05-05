@@ -21,10 +21,21 @@
 }
 
 body {
-    /* height: 50vh; */
+    height: 100vh;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     /* overflow: hidden !important; */
+
+    
+}
+
+#body-content {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
@@ -121,25 +132,31 @@ p {
 #index-div {
     background-color: transparent;
     
-    max-height: 25vh;
+    /* max-height: 25vh;
     max-width: 33em;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
+   max-width: 30vw;
    
 
 }
 
 #img1 {
     background-image: url('images/truck.jpg');
-    background-size: cover !important;
+    /* background-size: cover !important; */
+    object-fit:fill;
     
 
 }
 
-.col{
+.row {
+
+}
+
+.col {
     border: 1px solid black;  
 
 }
