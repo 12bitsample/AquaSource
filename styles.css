@@ -25,17 +25,16 @@ body {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     /* overflow: hidden !important; */
-
-    
 }
 
 #body-content {
-    height: 100vh;
+    height: 100%;
     
     display: flex;
     align-items: center;
     justify-content: center;
 
+    overflow:hidden !important;
 }
 
 
@@ -104,24 +103,24 @@ body {
 
 /* index body */
 
-#div1 {
+/* #div1 {
 
     background-color:rgb(129, 180, 235);
-    height:86vh;
+    max-height:vh;
     width: 75%;
-}
+} */
 
 div > h2 {
     background-color:rgb(0,0,0,0);
     
 }
 
-#div-row {
-    /* max-height: 25% !important;
+/* #div-row {
+    max-height: 25% !important;
     overflow: hidden;
-    font-size: 1.2rem !important; */
+    font-size: 1.2rem !important;
     
-}
+} */
 
 p {
     color:black;
@@ -138,22 +137,34 @@ p {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); */
-
-   max-width: 30vw;
+    height: 40em;
+    max-width: 75vw;
    
+   overflow: hidden;
 
 }
 
-#img1 {
+#img1  {
     background-image: url('images/truck.jpg');
-    /* background-size: cover !important; */
-    object-fit:fill;
-    
+    /* position: relative; */
+
+}
+
+#img1 > img{
+    width: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    position: absolute !important;;
+    left: 0;
+    top: 0;
+    height: 100% !important;
+
 
 }
 
 .row {
-
+    height:50%;
+    overflow: hidden !important;
 }
 
 .col {
