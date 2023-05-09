@@ -145,22 +145,33 @@ p {
 
 }
 
+#index-text {
+    
+}
+
 #img1  {
     background-image: url('images/truck.jpg');
-    /* position: relative;
-    width: 100% !important; */
+    /* position: relative; */
+    /* background-size: auto !important;
+    background-repeat: no-repeat;
+    
+    max-height: 100% !important;
+    max-width: 100% !important; */
 
+    
 }
 #img2  {
     background-image: url('images/hose-truck.JPG');
     /* position: relative; */
-
+    background-size: cover !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
 }
 
 
 .row {
     height:50%;
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
 }
 
 .col {
