@@ -28,14 +28,23 @@ body {
 }
 
 #body-content {
-    height: 50%;
-    width: 75%;
-    
-    display: grid;
+    height: 100vh;
+    /* display: grid; */
     align-items: center;
     justify-content: center;
 
     /* overflow:hidden !important; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:40vh;
+    width: 40vw;
+}
+
+.box {
+
 }
 
 
