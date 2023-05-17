@@ -43,18 +43,26 @@ body {
     inset: 0;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 50%;
     gap: 1rem;
     height:60%;
     width: 60%;
 }
 
+
 .box > img {
+    display: block;
+    height:auto;
     width: 100%;
+
+    
 }
 
 .box > p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .grid-col-span-2 {
@@ -62,7 +70,7 @@ body {
 }
 
 .grid-text {
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
