@@ -51,10 +51,18 @@ body {
 
 
 .box > img {
-    display: block;
-    height:auto;
-    width: 100%;
+    position: relative;
+    height:100%;
+    display: flex;
+    /* max-height:max-content; */
+    max-width: 100%;
+    overflow: hidden;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 
+    border-radius: 25px;
     
 }
 
@@ -62,7 +70,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 5%;
+    background-color: transparent;
 }
 
 .grid-col-span-2 {
@@ -70,8 +79,8 @@ body {
 }
 
 .grid-text {
-    font-size: 1rem;
-    font-weight: bold;
+    color:white;
+    font-size: 1.5rem;
 }
 
 
