@@ -30,13 +30,7 @@ body {
     /* overflow: hidden !important; */
 }
 
-#body-content {
-    /* height: 100vh; */
-    /* align-items: center;
-    justify-content: center; */
 
-    /* overflow:hidden !important; */
-}
 
 .grid {
     position: absolute;
@@ -48,7 +42,7 @@ body {
     height:60%;
     width: 60%;
 
-    outline: green 1px solid;
+    /* outline: green 1px solid; */
 }
 
 
@@ -64,7 +58,7 @@ body {
     
 }
 
-#img-box {
+#box-2 {
     display: flex;
     width:100%;
     justify-content: center;
@@ -82,9 +76,9 @@ body {
     
 }
 
-.box {
+/* .box {
     outline: red 1px solid;
-}
+} */
 
 .grid-col-span-2 {
     grid-column: span 2;
@@ -180,9 +174,22 @@ p {
 
 
 
-/* @media only screen and (max-width: 925px) {
+@media only screen and (max-width: 800px) {
     
-    h2 {
+    * {
+        overflow:scroll;
+    }
+
+    .grid {
+        display:block;
+        height: 70%;
+    }
+
+    #box-1 {
+        background-image: url(images/truck.jpg);
+    }
+    
+    /* h2 {
         display: none;
     }
 
@@ -213,10 +220,10 @@ p {
 
     img {
         display:none;
-    }
-} */
+    } */
+}
 
-/* rates */
+/* rates page */
 
 #rate-container {
     height:50vh;
