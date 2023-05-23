@@ -177,23 +177,37 @@ p {
 @media only screen and (max-width: 800px) {
     
     * {
-        overflow:scroll;
+        overflow:-moz-hidden-unscrollable;
     }
 
     .grid {
         display:block;
-        height: 70%;
+        height:80%;
     }
 
+    .box > p {
+        /* background: rgba(249, 249, 249, 1);  */
+        
+    }
+        
     #box-1 {
         background-image: url(images/truck.jpg);
+        background-repeat: no-repeat;
+        height: 50%;
+        margin-top: 20%;
+        border-radius: 5%;;
     }
+
+    #box-2 {
+        display:none;
+    }
+
     
     /* h2 {
         display: none;
     }
 
-    #div1 {
+    #div1 { 
         background: url('images/truck.jpg');
         background-repeat: no-repeat;
         background-size: cover;
