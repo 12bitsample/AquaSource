@@ -185,8 +185,16 @@ p {
         height:80%;
     }
 
-    .box > p {
-        /* background: rgba(249, 249, 249, 1);  */
+    #box-1 > p {
+        position:absolute;
+        margin-top: 20%;
+        inset:1em;
+        height:50%;
+        width: 75%;
+        inset: .2em;
+        outline: red solid 2px;
+        
+
         
     }
         
