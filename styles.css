@@ -186,12 +186,21 @@ p {
     }
 
     #box-1 > p {
-        position:absolute;
-        margin-top: 20%;
-        inset:1em;
+        /* position: relative;
+        margin-top: 50%;
+        padding: 1%;
         height:50%;
         width: 75%;
-        inset: .2em;
+        margin: 0 auto; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 5% 5% 20%;
+
+        
+        
         outline: red solid 2px;
         
 
