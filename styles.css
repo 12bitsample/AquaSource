@@ -182,7 +182,7 @@ p {
 
     .grid {
         display:block;
-        height:80%;
+        height:100%;
     }
 
     #box-1 > p {
@@ -193,13 +193,14 @@ p {
         width: 75%;
         margin: 0 auto; */
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        margin: 5% 5% 20%;
-
+        height: 50%;
+        margin-top: 25%;
         
+
+        margin: 5% 5% ;
+        backdrop-filter: blur(1px);
+
+        padding-top:0;
         
         outline: red solid 2px;
         
