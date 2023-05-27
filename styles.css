@@ -177,7 +177,7 @@ p {
 @media only screen and (max-width: 800px) {
     
     * {
-        overflow:-moz-hidden-unscrollable;
+        overflow:hidden;
     }
 
     .grid {
@@ -194,7 +194,7 @@ p {
         margin: 0 auto; */
 
         height: 50%;
-        margin-top: 25%;
+        
         
 
         margin: 5% 5% ;
