@@ -186,12 +186,7 @@ p {
     }
 
     #box-1 > p {
-        /* position: relative;
-        margin-top: 50%;
-        padding: 1%;
-        height:50%;
-        width: 75%;
-        margin: 0 auto; */
+        
 
         height: 50%;
         
@@ -221,9 +216,6 @@ p {
     }
 
     
-    /* h2 {
-        display: none;
-    }
 
     #div1 { 
         background: url('images/truck.jpg');
