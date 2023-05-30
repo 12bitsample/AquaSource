@@ -186,15 +186,9 @@ p {
     }
 
     #box-1 > p {
-        
-
-        height: 50%;
-        
-        
-
-        margin: 5% 5% ;
+        /* height: 50%; */
+        /* margin: 30% 5% ; */
         backdrop-filter: blur(1px);
-
         padding-top:0;
         
         outline: red solid 2px;
@@ -206,13 +200,23 @@ p {
     #box-1 {
         background-image: url(images/truck.jpg);
         background-repeat: no-repeat;
-        height: 80%;
-        margin-top: 20%;
+        height: 50%;
+        margin-top: 40%;
+        margin-bottom: 0;;
         border-radius: 5%;
+
+        outline: red solid 2px;
     }
 
     #box-2 {
         display:none;
+    }
+
+    #box-3 {
+        margin-top: 0;
+        padding-top: 0;
+
+        outline: red solid 2px;
     }
 
     
@@ -244,7 +248,7 @@ p {
 
     img {
         display:none;
-    } */
+    } 
 }
 
 /* rates page */
