@@ -186,8 +186,6 @@ p {
     }
 
     #box-1 > p {
-        /* height: 50%; */
-        /* margin: 30% 5% ; */
         backdrop-filter: blur(1px);
         padding-top:0;
         
@@ -249,6 +247,11 @@ p {
     img {
         display:none;
     } 
+
+    a#text.nav-link {
+        z-index: 0;
+        background-color: green;
+    }
 }
 
 /* rates page */
