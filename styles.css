@@ -4,12 +4,14 @@
     overflow:hidden;
     /* background-color: gray; */
     font-family:'Times New Roman', Times, serif;
+    
 }
 
 .navbar-brand {
     color: white !important; 
     font-size: 2rem !important;
     background-color: transparent;
+    
 				
 }
 
@@ -27,7 +29,7 @@ body {
     /* height: 100vh; */
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    /* overflow: hidden !important; */
+    
 }
 
 
@@ -183,6 +185,8 @@ p {
     .grid {
         display:block;
         height:100%;
+        position: inherit;
+        top: 0 !important;
     }
 
     #box-1 > p {
@@ -254,7 +258,10 @@ p {
 
     .nav-link {
         display: block;
+        position:relative;
         background-color: green;
+        padding-bottom: 0;
+        margin-bottom: 0;
         
         
     }
