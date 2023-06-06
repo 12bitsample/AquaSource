@@ -186,7 +186,6 @@ p {
 
     .grid {
         display:block;
-        /* height:100%; */
         position: inherit;
         top: 0 !important;
         height: 80vh;
@@ -231,14 +230,9 @@ p {
         background-repeat: no-repeat;
         background-size: cover;
         width: 90%;
-
         display: block;
         justify-content: center;
-
-        /* position: fixed; */
-
         z-index: 1 !important;
-        /* display:block; */
     
     }
 
@@ -262,7 +256,7 @@ p {
     .nav-link {
         display: block;
         position:relative;
-        background-color: green;
+        
         padding-bottom: 0;
         margin-bottom: 0;
         
