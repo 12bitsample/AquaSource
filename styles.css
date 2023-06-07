@@ -191,10 +191,14 @@ p {
         height: 80vh;
     }
 
-    #box-1 > p {
+    p.grid-text {
+        background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(1px);
-        padding-top:0;
-        
+        position:relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding-top:5px;
         outline: red solid 2px;
         
 
@@ -213,7 +217,7 @@ p {
     }
 
     #box-2 {
-        display:none;
+        /* display:none; */
     }
 
     #box-3 {
