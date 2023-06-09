@@ -187,19 +187,20 @@ p {
     .grid {
         display:flex;
         flex-direction: column;
-        position: inherit;
+        position:fixed;
         height: 90vh;
-        padding-top: 0%;
+        margin-top: 0%;
     }
 
     p.grid-text {
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(1px);
         position:relative;
+        display:flex;
+        font-size: 1rem;
         left: 50%;
         transform: translateX(-50%);
-        margin: 0;
-        padding-top:5px;
+        padding: 5%;
         outline: red solid 2px;
         
         
@@ -210,8 +211,8 @@ p {
     #box-1 {
         /* background-image: url(images/truck.jpg);
         background-repeat: no-repeat; */
-        height: 25%;
-        margin-top: 40%;
+        height: 35%;
+        margin-top: 30%;
         margin-bottom: 0;;
         border-radius: 5%;
         outline: red solid 2px;
