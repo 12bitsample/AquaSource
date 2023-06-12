@@ -26,7 +26,7 @@
 
 body {
     background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgb(20, 14, 125) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     
 }
 
@@ -84,7 +84,7 @@ body {
 
 .grid-text {
     color:white;
-    font-size: 120%;
+    font-size: 1.5rem;
     
 
 }
@@ -178,6 +178,7 @@ p {
         overflow:hidden;
     }
 
+
     div#body-content {
         position:relative;
         height:100%;
@@ -210,10 +211,8 @@ p {
     }
         
     #box-1 {
-        /* background-image: url(images/truck.jpg);
-        background-repeat: no-repeat; */
-        height: 35%;
-        margin-top: 30%;
+        height: 30%;
+        margin-top: 10%;
         margin-bottom: 0;;
         border-radius: 5%;
         outline: red solid 2px;
