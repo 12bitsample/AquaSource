@@ -64,6 +64,11 @@ body {
     height: 120%;
     justify-content: center;
     align-items: center;
+    
+}
+
+#box-3 {
+    outline: red 2px solid;
 }
 
 .box > p {
