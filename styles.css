@@ -198,6 +198,7 @@ p {
         position:inherit;
         height: 90vh;
         margin-top: 0;
+        
     }
 
     p.grid-text {
@@ -219,13 +220,14 @@ p {
     #box-1 {
         height: 30%;
         margin-top: 10%;
-        margin-bottom: 0;;
+        margin-bottom: 0;
+        padding-bottom: 0;
         border-radius: 5%;
         outline: red solid 2px;
     }
 
     #box-2 {
-        /* display:none; */
+        padding: 5%;
     }
 
     #box-3 {
