@@ -67,10 +67,6 @@ body {
     height:100%;
 }
 
-#box-3 {
-    outline: red 2px solid;
-}
-
 .box > p {
     display: flex;
     justify-content: center;
@@ -214,11 +210,6 @@ p {
         left: 50%;
         transform: translateX(-50%);
         padding: 5%;
-        outline: red solid 2px;
-        
-        
-
-        
     }
         
     #box-1 {
@@ -227,7 +218,6 @@ p {
         margin-bottom: 0;
         padding-bottom: 0;
         border-radius: 5%;
-        outline: red solid 2px;
     }
 
     #box-2 {
@@ -237,8 +227,6 @@ p {
     #box-3 {
         margin-top: 0;
         padding-top: 0;
-
-        outline: red solid 2px;
     }
 
     
