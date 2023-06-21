@@ -183,8 +183,8 @@ p {
 
     div#body-content {
         position:relative;
-        height:100vh;
-        margin-top: 0;
+        height:100%;
+        padding-top: 0;
         
     }
 
@@ -195,9 +195,9 @@ p {
     .grid {
         display:flex;
         flex-direction: column;
-        position:inherit;
-        height: 75vh;
+        position:static;
         margin-top: 0;
+        /* overflow: hidden; */
         
     }
 
@@ -209,12 +209,14 @@ p {
         font-size: 1em;
         left: 50%;
         transform: translateX(-50%);
-        padding: 5%;
+        margin-bottom: 0;
+        vertical-align: baseline;
     }
         
     #box-1 {
         height: 30%;
-        margin-top: 10%;
+        overflow:auto;
+        margin-top: 5%;
         margin-bottom: 0;
         padding-bottom: 0;
         border-radius: 5%;
