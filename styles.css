@@ -221,8 +221,7 @@ p {
     }
 
     #box-2 {
-        padding-top: 0;
-        max-height: max-content;
+        
     }
 
     #box-3 {
@@ -233,7 +232,7 @@ p {
 
     
 
-    #div1 { 
+    /* #div1 { 
         background: url('images/truck.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -248,7 +247,7 @@ p {
         text-align: center;
         width: 80%;
         align-items: center;
-    }
+    } */
 
     p {
         display: inline-block;
