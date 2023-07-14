@@ -171,6 +171,42 @@ p {
 
 }
 
+/* rates page */
+
+#rate-container {
+    height:60vh;
+    align-items: center;
+    font-size: 1.2rem !important;
+
+    
+}
+
+#rate-text {
+    width: 85%;
+    margin:0 auto;
+    padding: 1vw;
+    margin-top: 1%;
+    font-size: 1.2rem !important;
+}
+
+table {
+    background-color: white;
+    width:85%;     
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid !important;
+}
+
+#rate-container {
+    font-size: 3vw;
+    
+}
+
+.row {
+    gap: 0 !important;
+}
 
 @media only screen and (max-width: 800px) {
     
@@ -256,30 +292,4 @@ p {
     }
 }
 
-/* rates page */
 
-#rate-container {
-    height:50vh;
-    align-items: center;
-    font-size: 1.2rem !important;
-}
-
-#rate-text {
-    width: 85%;
-    margin:0 auto;
-    padding: 1vw;
-}
-
-table {
-    background-color: white;
-    width:85%;     
-    margin: 0 auto;
-}
-
-table, th, td {
-    border: 1px solid !important;
-}
-
-#rate-container {
-    font-size: 3vw;
-}
