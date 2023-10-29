@@ -4,7 +4,11 @@
     overflow:hidden;
     font-family:'Times New Roman', Times, serif;
     box-sizing: border-box; 
-    
+    color:white;
+}
+
+body {
+    color:white;
 }
 
 .navbar-brand {
@@ -12,6 +16,10 @@
     font-size: 3rem !important;
     /* background-color: transparent; */
 				
+}
+
+.navbar-nav {
+    flex-direction: row;
 }
 
 .black-bg {
