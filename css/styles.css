@@ -14,13 +14,14 @@ body {
 .navbar {
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85) 82%); 
+
    
 }
 
 .navbar-brand {
     color: white !important; 
-    font-size: clamp(4rem, 10vw + 0.5rem, 9rem);
-    font-weight: 550;;
+    font-size: 2.5rem;
+    /* font-weight: 550; */
     /* font-size: 3rem !important; */
     
 				
@@ -33,6 +34,10 @@ body {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85,0.6635386576505602) 82%); 
 }
 
+.nav-link {
+    display:inline
+}
+
 .black-bg {
     /* background: black; */
     box-shadow: inset 0px 0px 5px 5px grey;
@@ -41,6 +46,14 @@ body {
 
 }
 
+.img-bg {
+    height: 100vh;
+    -webkit-mask-image: url(/images/splash.svg);
+    -webkit-mask-size: contain;
+    mask-image: linear-gradient(black, transparent);
+    mask-size: contain;
+   
+}
 
 #text {
     color:white;
