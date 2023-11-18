@@ -8,7 +8,19 @@
 }
 
 body {
+    /* background: rgb(30, 18, 255);
+    background: radial-gradient(circle, rgb(7, 2, 93) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+
+    height:100vh;
+
     color:white;
+    background-image: linear-gradient( 
+    rgba(255, 255, 255, 0.2), 
+    rgba(0, 0, 0, 0.5)), url(/images/truck.jpg); 
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    
+    
 }
 
 .navbar {
@@ -23,19 +35,15 @@ body {
     font-size: 2.5rem;
     /* font-weight: 550; */
     /* font-size: 3rem !important; */
-    
-				
-}
-
-
-.navbar-nav {
-    /* display: inline-flex; */
-    /* background: rgb(0,0,0,0) !important; */
-    /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85,0.6635386576505602) 82%);  */
 }
 
 .nav-link {
     display:inline
+}
+
+.hero-text {
+    font-size: 5rem !important;
+    font-weight: bolder;
 }
 
 .black-bg {
@@ -46,14 +54,14 @@ body {
 
 }
 
-.img-bg {
+/* .img-bg {
     height: 100vh;
     -webkit-mask-image: url(/images/splash.svg);
     -webkit-mask-size: contain;
     mask-image: linear-gradient(black, transparent);
     mask-size: contain;
    
-}
+} */
 
 #text {
     color:white;
@@ -63,15 +71,6 @@ body {
 #navbarSupportedContent {
     font-size: 3vh;
 }
-
-body {
-    background: rgb(30, 18, 255);
-    background: radial-gradient(circle, rgb(7, 2, 93) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    height:100vh;
-    
-}
-
-
 
 /* .grid {
     position: absolute;
@@ -127,7 +126,7 @@ body {
 }
 
 
-.drop {
+/* .drop {
 
 	position:fixed;
     background-attachment: fixed;
@@ -188,7 +187,7 @@ body {
 	border-radius:0% 100% 100% 100%;
 	transform: rotate(45deg);
 	clear: left;
-}
+} */
 
 div > h2 {
     background-color:rgb(0,0,0,0);
