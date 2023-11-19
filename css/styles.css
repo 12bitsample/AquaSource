@@ -42,8 +42,9 @@ body {
 }
 
 .hero-text {
-    font-size: 5rem !important;
+    font-size: 6vw !important;
     font-weight: bolder;
+    text-align: center;
 }
 
 .black-bg {
