@@ -42,9 +42,14 @@ body {
 }
 
 .hero-text {
-    font-size: 8vw !important;
+    /* font-size: 8vw !important; */
+    font-size: clamp(30px, 8vw, 10vw) !important;
     font-weight: bolder;
     text-align: center;
+}
+
+button {
+    font-size: 1.5rem;
 }
 
 .black-bg {
