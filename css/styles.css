@@ -24,10 +24,8 @@ body {
 }
 
 .navbar {
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85) 82%); 
-
-   
+    background: rgb(50,54,48);
+    /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85) 82%);  */
 }
 
 .navbar-brand {
@@ -48,16 +46,15 @@ body {
     text-align: center;
 }
 
-button {
-    font-size: 1.5rem;
+.phone {
+    background: rgb(66,83,107) !important;
+    outline: 5px groove rgb(98,117,129) !important;
+    /* outline-offset: 5px; */
 }
 
-.black-bg {
-    /* background: black; */
-    box-shadow: inset 0px 0px 5px 5px grey;
-
-    /* outline: red solid 2px; */
-
+.testimonials {
+    background: rgb(98,117,129) !important;
+    outline: 2px solid rgb(66,83,107) !important;
 }
 
 /* .img-bg {
