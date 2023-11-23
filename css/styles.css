@@ -1,9 +1,11 @@
 @import 'bootstrap.min.css';
 
+
+
 * {
     overflow:hidden;
     font-family:'Times New Roman', Times, serif;
-    box-sizing: border-box; 
+    box-sizing: border-box !important; 
     color:white;
 }
 
@@ -19,8 +21,6 @@ body {
     rgba(0, 0, 0, 0.5)), url(/images/truck.jpg); 
     background-size: cover  ;
     background-repeat: no-repeat;
-    
-    
 }
 
 .navbar {
@@ -44,17 +44,22 @@ body {
     font-size: clamp(30px, 8vw, 10vw) !important;
     font-weight: bolder;
     text-align: center;
+    border: 3px inset rgb(55,66,78);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 5px rgb(255,255,255) !important;
 }
 
 .phone {
     background: rgb(66,83,107) !important;
-    outline: 5px groove rgb(98,117,129) !important;
-    /* outline-offset: 5px; */
+    /* outline: 20px solid rgb(98,117,129) !important; */
+    /* border: 6px solid rgb(55,66,78); */
+    box-shadow: 10px 10px 5px rgb(55,66,78) !important;
 }
 
 .testimonials {
     background: rgb(98,117,129) !important;
-    outline: 2px solid rgb(66,83,107) !important;
+    /* outline: 20px solid rgb(66,83,107) !important; */
+    box-shadow: 10px 10px 5px rgb(66,83,107) !important;
 }
 
 /* .img-bg {
