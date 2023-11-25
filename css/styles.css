@@ -40,7 +40,6 @@ body {
 }
 
 .hero-text {
-    /* font-size: 8vw !important; */
     font-size: clamp(30px, 8vw, 10vw) !important;
     font-weight: bolder;
     text-align: center;
@@ -49,27 +48,18 @@ body {
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
 }
 
+
 .phone {
     background: rgb(66,83,107) !important;
-    /* outline: 20px solid rgb(98,117,129) !important; */
-    /* border: 6px solid rgb(55,66,78); */
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
 }
 
+
+
 .testimonials {
     background: rgb(98,117,129) !important;
-    /* outline: 20px solid rgb(66,83,107) !important; */
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
 }
-
-/* .img-bg {
-    height: 100vh;
-    -webkit-mask-image: url(/images/splash.svg);
-    -webkit-mask-size: contain;
-    mask-image: linear-gradient(black, transparent);
-    mask-size: contain;
-   
-} */
 
 #text {
     color:white;
@@ -263,6 +253,10 @@ table, th, td {
         
     }
 
+    .hero-text {
+        overflow: hidden !important;
+    }
+
     .grid {
         display:flex;
         flex-direction: column;
@@ -283,18 +277,12 @@ table, th, td {
     }
         
     #box-1 {
-        height: 30%;
-        border-radius: 5%;
+        backdrop-filter: blur(5px);
+        
+        /* height: 30%;
+        border-radius: 5%; */
     }
 
-    #box-2 {
-        display:flex;
-    }
-
-    #box-2 > img {
-        object-fit:cover;
-        /* max-height:50%; */
-    }
 
     #box-3 {
         margin-top: 0;
