@@ -10,9 +10,6 @@
 }
 
 body {
-    /* background: rgb(30, 18, 255);
-    background: radial-gradient(circle, rgb(7, 2, 93) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-
     height:100vh;
 
     color:white;
@@ -40,7 +37,8 @@ body {
 }
 
 .hero-text {
-    font-size: clamp(30px, 8vw, 10vw) !important;
+    /* font-size: clamp(30px, 4vw, 6vw) !important; */
+    font-size: max(5vw, 50px) !important;
     font-weight: bolder;
     text-align: center;
     border: 3px bold rgb(55,66,78);
@@ -248,13 +246,6 @@ table, th, td {
     div#body-content {
         position:relative;
         height:100%;
-       
-        
-        
-    }
-
-    .hero-text {
-        overflow: hidden !important;
     }
 
     .grid {
@@ -264,21 +255,25 @@ table, th, td {
         overflow: hidden;
     }
 
-    p.grid-text {
+    .grid-text {
+        max-height: max-content !important;
+    }
+
+    /* p.grid-text {
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(1px);
         position:relative;
-        display:flex;
-        font-size: 1.1em;
+    
+        
         left: 50%;
         transform: translateX(-50%);
         
         vertical-align: baseline;
-    }
+    } */
         
     #box-1 {
         backdrop-filter: blur(5px);
-        
+        position: relative !important;
         /* height: 30%;
         border-radius: 5%; */
     }
