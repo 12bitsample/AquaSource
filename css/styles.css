@@ -50,6 +50,7 @@ body {
 .phone {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
+    font-size: 3em !important;
 }
 
 
@@ -57,6 +58,7 @@ body {
 .testimonials {
     background: rgb(98,117,129) !important;
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
+    font-size: 3em !important;
 }
 
 #text {

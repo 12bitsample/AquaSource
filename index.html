@@ -36,13 +36,13 @@
           </div>
         </article>   
         <article>
-          <div class="box w-75 overflow-visible mx-auto" id="box-3">
+          <div class="box w-75 overflow-visible mx-auto" id="box-2">
             <p class="grid-text phone">(937) 642 9777</p>
           </div>
         </article>
         <article>
-          <div class="box w-75 overflow-visible mx-auto" id="box-3">
-            <p class="grid-text testimonials box-shadow-5">Testimonials</p>
+          <div class="box w-75 overflow-visible mx-auto test" id="box-3">
+            <p class="grid-text testimonials box-shadow-5" id="testimonials">Testimonials</p>
           </div>
         </article>
       </div>
@@ -50,17 +50,25 @@
     </div>
 </body>
 <script>
-  // import 'bootstrap';
+  
 
-  function changeColor(element) {
+  // function changeColor(element) {
 
-    element.style.textShadow = '2px 1px black';
+  //   element.style.textShadow = '2px 1px black';
 
-    element.addEventListener('mouseout', function() {
-      element.style.textShadow = 'none';
-    })
+  //   element.addEventListener('mouseout', function() {
+  //     element.style.textShadow = 'none';
+  //   })
 
-  }
+  // }
+
+
+  const para = document.createElement('p');
+  const node = document.createTextNode('text is here to save the day!');
+  para.appendChild(node);
+
+  const element = document.getElementById('box-2');
+  element.appendChild(para);
 
 
 </script>
