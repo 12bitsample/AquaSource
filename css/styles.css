@@ -22,18 +22,22 @@ body {
 
 .navbar {
     background: rgb(50,54,48);
+    overflow: hidden !important;
     /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85) 82%);  */
+    
 }
 
 .navbar-brand {
     color: white !important; 
-    font-size: 2.5rem;
+    font-size: 3vw !important;
+    height: inherit !important;
     /* font-weight: 550; */
     /* font-size: 3rem !important; */
 }
 
 .nav-link {
-    display:inline
+    display:inline;
+    font-size: 3vw !important;
 }
 
 .hero-text {
@@ -50,7 +54,7 @@ body {
 .phone {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
-    font-size: 3em !important;
+    font-size: 2.5vw !important;
 }
 
 
@@ -244,6 +248,22 @@ table, th, td {
         overflow:hidden;
     }
 
+    .navbar {
+        font-size: .5em !important;
+    }
+
+    /* .navbar-brand {
+        margin:
+    } */
+
+    .nav-link {
+        display:list-item;
+        /* position:relative; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        font-size: 2em !important;
+    }
 
     div#body-content {
         position:relative;
@@ -297,16 +317,6 @@ table, th, td {
         display:none;
     } 
 
-
-    .nav-link {
-        display:list-item;
-        /* position:relative; */
-        
-        padding-bottom: 0;
-        margin-bottom: 0;
-        
-        
-    }
 }
 
 
