@@ -22,27 +22,27 @@ body {
 
 .navbar {
     background: rgb(50,54,48);
-    overflow: hidden !important;
-    /* background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(84,84,85) 82%);  */
+    overflow: hidden !important; 
     
 }
 
 .navbar-brand {
     color: white !important; 
-    font-size: 3vw !important;
-    height: inherit !important;
-    /* font-weight: 550; */
-    /* font-size: 3rem !important; */
+    /* font-size: 4.5vw !important; */
+    font-size: clamp(1.5em, 2em, 5vw) !important;
+
+    
 }
 
 .nav-link {
     display:inline;
-    font-size: 3vw !important;
+    /* font-size: 3vw !important; */
+    font-size: clamp(1em, 2em, 2vw) !important;
 }
 
 .hero-text {
-    /* font-size: clamp(30px, 4vw, 6vw) !important; */
-    font-size: max(5vw, 50px) !important;
+    color: white;
+    font-size: min(6vw, 50px) !important;
     font-weight: bolder;
     text-align: center;
     border: 3px bold rgb(55,66,78);
@@ -248,25 +248,23 @@ table, th, td {
         overflow:hidden;
     }
 
-    .navbar {
-        font-size: .5em !important;
+    .nav-link {
+        /* display:list-item !important; */
+        /* position:relative; */
+        /* padding-bottom: 0;
+        margin-bottom: 0; */
+
+        /* font-size: 2vw !important; */
     }
 
-    /* .navbar-brand {
-        margin:
-    } */
-
-    .nav-link {
-        display:list-item;
-        /* position:relative; */
-        padding-bottom: 0;
-        margin-bottom: 0;
-
-        font-size: 2em !important;
+    #body-content {
+        /* display:flex !important;
+        flex-direction: row !important; */
     }
 
     div#body-content {
         position:relative;
+        
         height:100%;
     }
 

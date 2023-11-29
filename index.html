@@ -10,7 +10,7 @@
 </head> 
 <body class="d-flex flex-column">
     <!-- Navigation -->
-    <nav class="navbar pb-3">
+    <nav class="navbar pb-2.8">
         <div class="container-fluid overflow-hidden px-4">
           <a class="navbar-brand overflow-hidden px-1 py-0" href="index.html">AquaSource</a>
           <div class="navbar  d-flex">
@@ -26,13 +26,13 @@
     <div class="drop2"></div>
     <div class="drop3"></div> -->
 
-    <div class="flex-grow-1 mx-auto" id="body-content">
+    <!-- <div class="flex-grow-1 mx-auto" id="body-content">
       <div class="d-inline-flex flex-column justify-content-around mx-auto h-100">
-        <article class="box  w-75 mx-auto position-relative">
+        <article class="box  w-85 mx-auto position-relative">
           <div class="box w-75 overflow-visible mx-auto" id="box-1">
             
 
-            <p class="grid-text hero-text p-2 bg-transparent">AquaSource<br> is here to solve all of your water needs!</p>
+            <p class="hero-text px-5 bg-transparent">AquaSource<br> is here to solve all of your water needs!</p>
           </div>
         </article>   
         <article>
@@ -45,7 +45,27 @@
             <p class="grid-text testimonials box-shadow-5" id="testimonials">Testimonials</p>
           </div>
         </article>
-      </div>
+      </div> -->
+
+      <div class="flex-grow-1 mx-auto" id="body-content">
+        <div class="d-inline-flex flex-column justify-content-around mx-auto h-100">
+      
+            <div class="box w-75 overflow-visible mx-auto" id="box-1">
+              
+  
+              <p class="hero-text px-5 bg-transparent">AquaSource<br> is here to solve all of your water needs!</p>
+            </div>
+          
+            <div class="box w-75 overflow-visible mx-auto" id="box-2">
+              <p class="grid-text phone">(937) 642 9777</p>
+            </div>
+          
+            <div class="box w-75 overflow-visible mx-auto" id="box-3">
+              <p class="grid-text row testimonials box-shadow-5" id="testimonials">Testimonials</p>
+              
+            </div>
+        
+        </div>
       
     </div>
 </body>
@@ -63,14 +83,16 @@
   // }
 
 
-  const para = document.createElement('p');
-  const node = document.createTextNode('text is here to save the day!');
-  para.appendChild(node);
+  // const para = document.createElement('p');
+  // const node = document.createTextNode(reviews.);
+  // para.appendChild(node);
 
-  const element = document.getElementById('box-2');
-  element.appendChild(para);
+  // const element = document.getElementById('testimonials');
+  // element.appendChild(para);
 
-  const reviews = {
+
+
+  let reviews = {
     1: {
       name: 'Toni Ankrom', review: 'Chris is fantastic!  He has hauled water for our pool for 3 years now and I wouldn’t think of using anyone else.  Even during his busiest time, I always get a text or return call. Very personable and I enjoy talking about our families and pets while the water flows.  :)  He is honest and up front when setting expectations.  Great service!'
     },
@@ -84,6 +106,9 @@
       name: 'Jill Chrencik', review: 'Customer service at its best-Steve went above and beyond for us while filling our above ground pool in the pouring rain! .  This is our second year using his services, and I would not hesitate to call and schedule his services for your water needs!'
     },
   }
+
+  var review = document.getElementById('testimonials');
+  review.innerHTML(reviews.name);
 
 </script>
 </html>
