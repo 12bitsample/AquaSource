@@ -74,6 +74,10 @@ body {
     font-size: 3vh;
 }
 
+.glide {
+    background-color: red !important;
+}
+
 /* .grid {
     position: absolute;
     inset: 0;
