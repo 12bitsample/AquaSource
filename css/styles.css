@@ -20,6 +20,10 @@ body {
     background-repeat: no-repeat;
 }
 
+h1 {
+    font-family: 'Tinos', serif;
+}
+
 .navbar {
     background: rgb(50,54,48);
     overflow: hidden !important; 
@@ -46,6 +50,10 @@ body {
     font-weight: bolder;
     text-align: center;
     border: 3px bold rgb(55,66,78);
+    
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(50,54,48,1) 0%, rgba(66,83,107,1) 35%, rgba(98,117,129,0) 100%);
+
     backdrop-filter: blur(5px);
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
 }
