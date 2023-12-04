@@ -62,7 +62,7 @@ h1 {
 .phone {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
-    font-size: 2.5vw !important;
+    font-size: clamp(1em, 4vw, 5em) !important;
 }
 
 
@@ -70,11 +70,13 @@ h1 {
 .testimonials {
     background: rgb(98,117,129) !important;
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
-    font-size: 1.5em !important;
+    /* font-size: 4vw !important; */
+    font-size: clamp(1em, 4vw, 3.5em);
+    
 }
 
-testimonials-h3 {
-   outline: 2px red solid;
+.testimonials p {
+    font-size: clamp(1em, 2vw, 1em) !important;
 }
 
 #text {
@@ -333,4 +335,12 @@ table, th, td {
 
 }
 
+@media only screen and (max-width: 375px) {
+
+    .container-fluid {
+        justify-content: center !important;
+    
+    }
+
+}
 
