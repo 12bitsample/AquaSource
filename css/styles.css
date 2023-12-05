@@ -10,7 +10,7 @@
 }
 
 body {
-    height:100vh;
+    /* height:100vh; */
 
     color:white;
     background-image: linear-gradient( 
@@ -58,11 +58,15 @@ h1 {
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
 }
 
+#testimonials-text-1 {
+  left: 5px;
+  z-index: 1;
+}
 
 .phone {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
-    font-size: clamp(1em, 4vw, 5em) !important;
+    font-size: clamp(1em, 4vw, 3em) !important;
 }
 
 
@@ -75,8 +79,17 @@ h1 {
     
 }
 
-.testimonials p {
+
+.testimonials h1 {
     font-size: clamp(1em, 2vw, 1em) !important;
+}
+
+.testimonials h3 {
+    font-size: clamp(.9em, 2vw, 1em) !important;
+}
+
+.testimonials p {
+    font-size: clamp(1em, .5vw, 1em) !important;
 }
 
 #text {
@@ -88,9 +101,6 @@ h1 {
     font-size: 3vh;
 }
 
-.glide {
-    background-color: red !important;
-}
 
 /* .grid {
     position: absolute;
