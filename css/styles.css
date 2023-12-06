@@ -7,15 +7,19 @@
     font-family:'Times New Roman', Times, serif;
     box-sizing: border-box !important; 
     color:white;
+    margin:0;
+    padding:0;
+}
+
+html {
+    height: 100%;
 }
 
 body {
-    /* height:100vh; */
+    min-height:100% !important;
 
     color:white;
-    background-image: linear-gradient( 
-    rgba(255, 255, 255, 0.2), 
-    rgba(0, 0, 0, 0.5)), url(/images/truck.jpg); 
+    background-image:  url(/images/truck.jpg);  
     background-size: cover  ;
     background-repeat: no-repeat;
 }
@@ -32,7 +36,6 @@ h1 {
 
 .navbar-brand {
     color: white !important; 
-    /* font-size: 4.5vw !important; */
     font-size: clamp(1.5em, 2em, 5vw) !important;
 
     
@@ -59,9 +62,17 @@ h1 {
 }
 
 #testimonials-text-1 {
-  left: 5px;
-  z-index: 1;
+    color: rgb(66,83,107)
 }
+
+#testimonials-text-1:before {
+    left:50;
+    content: "Testimonials";
+    color: white;
+    position:absolute;
+    line-height: 1.7;
+}
+
 
 .phone {
     background: rgb(66,83,107) !important;
@@ -77,7 +88,7 @@ h1 {
     /* font-size: 4vw !important; */
     font-size: clamp(1em, 4vw, 3.5em);
     
-}
+}   
 
 
 .testimonials h1 {
@@ -89,7 +100,8 @@ h1 {
 }
 
 .testimonials p {
-    font-size: clamp(1em, .5vw, 1em) !important;
+    /* font-size: clamp(1em, .5vw, 1em) !important; */
+    font-size: 50% !important;
 }
 
 #text {
