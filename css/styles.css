@@ -1,7 +1,5 @@
 @import 'bootstrap.min.css';
 
-
-
 * {
     overflow:hidden;
     font-family:'Times New Roman', Times, serif;
@@ -24,7 +22,11 @@ body {
     background-repeat: no-repeat;
 }
 
-h1 {
+#body-content {
+    height:100%;
+}
+
+h1 {    
     font-family: 'Tinos', serif;
 }
 
@@ -43,7 +45,6 @@ h1 {
 
 .nav-link {
     display:inline;
-    /* font-size: 3vw !important; */
     font-size: clamp(1em, 2em, 2vw) !important;
 }
 
@@ -62,12 +63,13 @@ h1 {
 }
 
 #testimonials-text-1 {
-    color: rgb(66,83,107)
+    color: rgb(66,83,107);
+    position:relative;
 }
 
-#testimonials-text-1:before {
+.hero-text::before {
     left:50;
-    content: "Testimonials";
+    content: "AquaSource is here to solve all of your water needs!";
     color: white;
     position:absolute;
     line-height: 1.7;
@@ -85,14 +87,14 @@ h1 {
 .testimonials {
     background: rgb(98,117,129) !important;
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
-    /* font-size: 4vw !important; */
-    font-size: clamp(1em, 4vw, 3.5em);
-    
+    font-size: clamp(2em, 5vw, 3.5em);
+
 }   
 
 
 .testimonials h1 {
     font-size: clamp(1em, 2vw, 1em) !important;
+    border: solid black .5px !important;
 }
 
 .testimonials h3 {
