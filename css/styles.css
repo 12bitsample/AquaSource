@@ -80,7 +80,7 @@ h1 {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
     text-shadow: 2px 2px black;
-    font-size: clamp(1em, 4vw, 3em) !important;
+    font-size: clamp(1em, 3vw, 4vw) !important;
 }
 
 
@@ -88,7 +88,7 @@ h1 {
 .testimonials {
     background: rgb(98,117,129) !important;
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
-    font-size: clamp(2em, 5vw, 3.5em);
+    font-size: clamp(2em, 5vw, 3em);
     text-shadow: 2px 2px black;
 
 }   
@@ -148,20 +148,20 @@ h1 {
     border-radius: 10%;
 } */
 
-.box > p {
+/* .box > p {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5%;
     background-color: transparent;
     
-}
+} */
 
 
 
-.grid-col-span-2 {
+/* .grid-col-span-2 {
     grid-column: span 2;
-}
+} */
 
 /* .grid-text {
     color:white;
@@ -239,12 +239,7 @@ div > h2 {
 }
 
 
-p {
-    color:black;
-    background-color: white;
-    height:100%;
 
-}
 
 /* rates page */
 
