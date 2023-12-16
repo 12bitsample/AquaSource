@@ -33,7 +33,7 @@ h1 {
 .navbar {
     background: rgb(50,54,48);
     overflow: hidden !important; 
-    
+    text-shadow: 2px 2px black !important;
 }
 
 .navbar-brand {
@@ -130,6 +130,7 @@ h1 {
     padding-top: 5%;
     
 } */
+
 
 
 /* .box > img {
@@ -358,6 +359,18 @@ table, th, td {
     .container-fluid {
         justify-content: center !important;
     
+    }
+
+    #box-2 {
+        display:none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #box-2 {
+        display:none;
     }
 
 }
