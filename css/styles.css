@@ -60,6 +60,7 @@ h1 {
     /* padding-left: 0 !important; */
     backdrop-filter: blur(5px);
     box-shadow: 10px 10px 5px rgb(55,66,78) !important; 
+    border-radius: 25px;
 }
 
 #testimonials-text-1 {
