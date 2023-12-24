@@ -81,7 +81,8 @@ h1 {
     background: rgb(66,83,107) !important;
     box-shadow: 10px 10px 5px rgb(55,66,78) !important;
     text-shadow: 2px 2px black;
-    font-size: clamp(1em, 3vw, 4vw) !important;
+    font-size: clamp(1em, 2vw, 3vw) !important;
+    border-radius: 15px;
 
     /* background-image: url(/images/telephone.svg);
     background-size: 30%;
@@ -97,6 +98,7 @@ h1 {
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
     font-size: clamp(2em, 5vw, 3em);
     text-shadow: 2px 2px black;
+    border-radius: 15px;
 
 }   
 
