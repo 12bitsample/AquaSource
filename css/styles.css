@@ -235,6 +235,14 @@ div > h2 {
     
 }
 
+/* about page */
+.about-text {
+    color:white;
+    font-size: 5vw !important;
+    font-weight: bolder;
+    height: 50% !important;
+    
+}
 
 
 
@@ -279,20 +287,6 @@ table, th, td {
     
     * {
         overflow:hidden;
-    }
-
-    .nav-link {
-        /* display:list-item !important; */
-        /* position:relative; */
-        /* padding-bottom: 0;
-        margin-bottom: 0; */
-
-        /* font-size: 2vw !important; */
-    }
-
-    #body-content {
-        /* display:flex !important;
-        flex-direction: row !important; */
     }
 
     .grid {
