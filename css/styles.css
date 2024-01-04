@@ -238,7 +238,8 @@ div > h2 {
 /* about page */
 .about-text {
     color:white;
-    font-size: 5vw !important;
+    /* font-size: 5vw !important; */
+    font-size: max(3.5vw, 15px);
     font-weight: bolder;
     height: 70% !important;
     
