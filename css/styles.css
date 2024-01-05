@@ -26,9 +26,9 @@ body {
     height:100%;
 }
 
-h1 {    
+/* h1 {    
     font-family: 'Tinos', serif;
-}
+} */
 
 .navbar {
     background: rgb(50,54,48);
@@ -238,10 +238,17 @@ div > h2 {
 /* about page */
 .about-text {
     color:white;
-    /* font-size: 5vw !important; */
-    font-size: max(3.5vw, 15px);
+    z-index: -1 !important;
+    font-size: min(2vw, 75px);
     font-weight: bolder;
-    height: 70% !important;
+    /* height: 70% !important; */
+
+    margin: 5%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+
     
 }
 
