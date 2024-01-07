@@ -26,10 +26,6 @@ body {
     height:100%;
 }
 
-/* h1 {    
-    font-family: 'Tinos', serif;
-} */
-
 .navbar {
     background: rgb(50,54,48);
     overflow: hidden !important; 
@@ -229,11 +225,6 @@ body {
 	clear: left;
 } */
 
-div > h2 {
-    background-color:rgb(0,0,0,0);
-    color:white;
-    
-}
 
 /* about page */
 .about-text {
@@ -241,15 +232,6 @@ div > h2 {
     z-index: -1 !important;
     font-size: min(2vw, 75px);
     font-weight: bolder;
-    /* height: 70% !important; */
-
-    margin: 5%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
-
-    
 }
 
 
