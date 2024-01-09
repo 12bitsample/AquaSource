@@ -227,11 +227,24 @@ body {
 
 
 /* about page */
+.about-div {
+    position: absolute !important;
+    width: 100% !important;
+    top: 20% !important;
+    bottom: 0 !important;
+}
+
 .about-text {
     color:white;
     z-index: -1 !important;
-    font-size: min(2vw, 75px);
+    /* font-size: min(2vw, 75px); */
+    font-size: clamp(15px, 2vw, 25px);
     font-weight: bolder;
+    
+}
+
+.about-img {
+    height: 25vw !important;
 }
 
 
