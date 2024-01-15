@@ -112,12 +112,12 @@ body {
 
 /* about page */
 .about-div {
-    position: absolute !important;
+    /* position: absolute !important; */
     height:fit-content;
-    width: 75% !important;
+    /* width: 75% !important;
     top: 20% !important;
     bottom: 10% !important;
-    left: 10% !important;
+    left: 10% !important; */
     
 
     text-shadow: 2px 2px black;
@@ -131,7 +131,7 @@ body {
     color:white;
     z-index: -1 !important;
     /* font-size: min(2vw, 75px); */
-    font-size: clamp(15px, 1.5vw, 20px) !important;
+    font-size: clamp(10px, 1.5vw, 20px) !important;
     
 }
 
@@ -240,10 +240,8 @@ table, th, td {
 
 @media only screen and (max-width: 450px) {
 
-    #sm-screen-center {
-        text-align: center !important;
+    .sm-screen-center {
         justify-content: center !important;
-    
     }
 
     #box-2 {
