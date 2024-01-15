@@ -241,6 +241,7 @@ table, th, td {
 @media only screen and (max-width: 450px) {
 
     #sm-screen-center {
+        text-align: center !important;
         justify-content: center !important;
     
     }
