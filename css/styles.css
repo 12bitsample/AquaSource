@@ -146,6 +146,8 @@ body.about {
 body.rates {
     background-image:none !important;  
     background-color: rgb(66,83,107);
+    display:inline-block !important;
+    min-width: 100% !important;
 }
 
 #rate-h2 {
