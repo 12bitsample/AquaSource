@@ -23,6 +23,10 @@ body {
     background-repeat:space;
 }
 
+a {
+    color: white !important;
+}
+
 #body-content {
     height:100%;
 }
