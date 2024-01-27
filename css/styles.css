@@ -117,6 +117,14 @@ a {
 
 /* about page */
 
+ul::before  {
+    content:attr(aria-label);
+    font-size: 120%;
+    font-weight: bold;
+    /* margin-left:-15px; */
+    color:white !important;
+}
+
 body.about {
     background-image:none !important;  
     background-color: rgb(66,83,107);
