@@ -125,7 +125,6 @@ ul::before  {
     content:attr(aria-label);
     font-size: 120%;
     font-weight: bold;
-    /* margin-left:-15px; */
     color:white !important;
 }
 
@@ -135,19 +134,15 @@ body.about {
 }
 
 .about-div {
-    text-shadow: 2px 2px black;
-    /* background: radial-gradient(ellipse, rgb(7, 7, 7) 0%, rgba(98,117,129) 35%, rgba(98,117,129,0) 50%); */
+    text-shadow: 1px 1px black;
     background: rgb(98,117,129);
-    /* backdrop-filter: blur(5px); */
     box-shadow: 10px 10px 5px rgb(55,66,78) !important; 
     border-radius: 25px;
 }
 
 .about-div-2 {
     text-shadow: 2px 2px black;
-    /* background: radial-gradient(ellipse, rgb(7, 7, 7) 0%, rgba(98,117,129) 35%, rgba(98,117,129,0) 50%); */
     background: rgb(93, 94, 95);
-    /* backdrop-filter: blur(5px); */
     box-shadow: 10px 10px 5px rgb(117,117,117) !important; 
     border-radius: 25px;
 }
@@ -155,8 +150,7 @@ body.about {
 .about-text {
     color:white;
     z-index: -1 !important;
-    /* font-size: min(2vw, 75px); */
-    font-size: clamp(15px, 1.5vw, 25px) !important;
+    font-size: clamp(20px, 1.5vw, 20px) !important;
     
 }
 
@@ -164,8 +158,6 @@ body.about {
     height: 25vw !important;
     padding-right: 5% !important;
 }
-
-
 
 /* rates page */
 
@@ -237,28 +229,10 @@ table, th, td {
         position:static;
         overflow: hidden;
     }
-
-    /* .grid-text {
-        max-height: max-content !important;
-    } */
-
-    /* p.grid-text {
-        background-color: rgba(255, 255, 255, 0);
-        backdrop-filter: blur(1px);
-        position:relative;
-    
-        
-        left: 50%;
-        transform: translateX(-50%);
-        
-        vertical-align: baseline;
-    } */
         
     #box-1 {
         backdrop-filter: blur(5px);
         position: relative !important;
-        /* height: 30%;
-        border-radius: 5%; */
     }
 
 
