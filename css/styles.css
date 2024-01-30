@@ -76,12 +76,6 @@ a {
     text-shadow: 2px 2px black;
     font-size: clamp(1.3em, 2.5vw, 3vw) !important;
     border-radius: 15px;
-
-    /* background-image: url(/images/telephone.svg);
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: top right 50%;
-    color: black; */
 }
 
 
@@ -219,9 +213,9 @@ table, th, td {
 
 @media only screen and (min-width: 767px) {
     
-    * {
+    /* * {
         overflow:hidden;
-    }
+    } */
 
     .grid {
         display:flex;
@@ -257,11 +251,11 @@ table, th, td {
 }
 
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
 
     #box-2 {
         display:none;
     }
 
-}
+} */
 
