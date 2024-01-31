@@ -9,18 +9,16 @@
     padding:0;
 }
 
-html {
-    height: 100% !important;
- 
-}
+
 
 body {
-    min-height:100% !important;
+    /* min-height:100% !important; */
 
     color:white;
     background-image:  url(/images/truck.jpg);  
     background-size: cover;
     background-repeat:space;
+    /* margin-top: 60px !important; */
 }
 
 a {
@@ -125,6 +123,7 @@ ul::before  {
 body.about {
     background-image:none !important;  
     background-color: rgb(66,83,107);
+    
 }
 
 .about-div {
@@ -160,6 +159,7 @@ body.rates {
     background-color: rgb(66,83,107);
     display:inline-block !important;
     min-width: 100% !important;
+    /* margin-top: 10vh !important; */
 }
 
 #rate-h2 {
@@ -251,11 +251,11 @@ table, th, td {
 }
 
 
-/* @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
     #box-2 {
         display:none;
     }
 
-} */
+}
 
