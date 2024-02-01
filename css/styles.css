@@ -55,7 +55,7 @@ a {
     text-align: center;
     /* border: 3px bold rgb(55,66,78); */
     
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     background: radial-gradient(circle, rgba(50,54,48,1) 0%, rgba(66,83,107,1) 35%, rgba(98,117,129,0) 100%);
     /* padding-left: 0 !important; */
     backdrop-filter: blur(5px);
@@ -82,7 +82,7 @@ a {
     background: rgb(98,117,129) !important;
     box-shadow: 10px 10px 5px rgb(66,83,107) !important;
     font-size: clamp(2em, 5vw, 3em);
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     border-radius: 15px;
 
 }   
