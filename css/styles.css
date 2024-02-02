@@ -12,7 +12,7 @@
 
 
 body {
-    /* min-height:100% !important; */
+    min-height:100% !important;
 
     color:white;
     background-image:  url(/images/truck.jpg);  
